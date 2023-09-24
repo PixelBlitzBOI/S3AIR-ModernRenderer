@@ -18,15 +18,15 @@
 function u16 getScreenWidth()
 {
 #if STANDALONE
-	return 400
+	return 420
 #else
-	return 320
+	return 340
 #endif
 }
 
 function u16 getScreenHeight()
 {
-	return 224
+	return 244
 }
 
 function u16 getScreenExtend()
